@@ -1,0 +1,11 @@
+{
+  "name": "tp05_bruno_marasi_salvador_soncini",
+  "version": "1.0.0",
+  "description": "TP05",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Bruno Marasi y Salvador Soncini",
+  "license": "ISC"
+}
