@@ -9,4 +9,12 @@ const devolverHoraActual = () => {
     return horaActual
 }
 
-export default devolverHoraActual
+const devolverFechaCompleta = () => {
+    const timestamp = Date.now()
+    const fechaActual = new Date(timestamp)
+
+    return fechaActual
+}
+
+export default {devolverHoraActual, devolverFechaCompleta}
+
