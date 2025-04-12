@@ -10,10 +10,17 @@ const devolverHoraActual = () => {
 }
 
 const devolverFechaCompleta = () => {
-    const timestamp = Date.now()
-    const fechaActual = new Date(timestamp)
-
-    return fechaActual
+    const ahora = new Date()
+    const fechaCompleta = ahora.toLocaleDateString("es-AR", {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+        second: "numeric"
+    })
+    return fechaCompleta
 }
 
 export default {devolverHoraActual, devolverFechaCompleta}
