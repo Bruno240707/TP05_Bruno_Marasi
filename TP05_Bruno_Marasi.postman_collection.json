@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "6b38fb3c-6e00-43fe-92b9-4cc0f4659af3",
+		"name": "TP05_Bruno_Marasi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42984157"
+	},
+	"item": [
+		{
+			"name": "/hora",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/fechaCompleta",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
