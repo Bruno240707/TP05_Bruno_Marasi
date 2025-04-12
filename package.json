@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "Bruno Marasi y Salvador Soncini",
+  "author": "Bruno Marasi",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
