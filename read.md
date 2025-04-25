@@ -1,0 +1,1 @@
+Primero que nada en el index.js se inicia el servidor y se empieza a escuchar el mismo, mientras que recibimos las funciones que utilizan la app desde app.js y time.js. En time.js creamos las funciones mientras que en app.js las usamos para de esta manera cuando por ejemplo se ingrese /fechaCompleta en el postman te devuelva la fecha completa.
